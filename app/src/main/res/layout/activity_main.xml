@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/sdfs"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/guess_the_word"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:translationX="150dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/b_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:translationY="200dp" />
+
+    <Button
+        android:id="@+id/b_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newword"
+        android:translationY="300dp" />
+
+    <EditText
+        android:id="@+id/et_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/word"
+        android:inputType="textPersonName"
+        android:translationY="150dp"
+        android:autofillHints="" />
+
+</RelativeLayout>

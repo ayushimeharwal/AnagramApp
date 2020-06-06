@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">anagram(kt)</string>
+    <string name="guess_the_word">GUESS THE WORD</string>
+    <string name="check">CHECK</string>
+    <string name="word">word</string>
+    <string name="newword">NewWord</string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='anagram(kt)'
+include ':app'
